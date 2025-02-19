@@ -5,3 +5,11 @@
 #2/18
     Solve an error connexion with db,
     Learn how to work with blade
+
+#2/19
+    Rolling back : :rollback
+                            --step=
+                            --batch=
+    store new row in db
+
+    git /register dosn't work
