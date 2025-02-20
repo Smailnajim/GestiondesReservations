@@ -13,3 +13,8 @@
     store new row in db
 
     git /register dosn't work
+
+#2/20
+    AFfich all salles 
+    create db
+    
