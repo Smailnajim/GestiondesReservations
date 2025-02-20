@@ -22,8 +22,8 @@ Route::get('/loging', function () {
     return view('loging');
 });
 
-Route::get('/lolo', [UserController::class, 'index']);
+Route::get('/register', [UserController::class, 'index']);
 
-Route::post('/register', [UserController::class, 'inserUser']);
+Route::post('/register/create', [UserController::class, 'inserUse']);
 
-Route::get('/test' , [UserController::class, 'index']);
+Route::get('/client/salles' , [UserController::class, 'allSalles']);
