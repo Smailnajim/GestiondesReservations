@@ -26,4 +26,8 @@ Route::get('/register', [UserController::class, 'index']);
 
 Route::post('/register/create', [UserController::class, 'inserUse']);
 
+
+
 Route::get('/client/salles' , [UserController::class, 'allSalles']);
+
+// Route::get('/salle/detai/{id}' , [UserController::class, 'allSalles']);

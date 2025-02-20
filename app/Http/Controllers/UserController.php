@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 
 use App\Models\User;
 
+use App\Models\Salle;
+
+
 class UserController extends Controller
 {
     public function index() {
@@ -20,6 +23,13 @@ class UserController extends Controller
     }
     
     public function allSalles(){
-        
+        $salles = salle::all();
+        dd($salles);
+        return view('client.dashBord', ['salles'=>$salles]);
     }
 }
+
+
+
+
+
